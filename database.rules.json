@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "pin": {
+      ".read": true,
+      ".write": false
+    },
+    "wins": {
+      ".write": "auth != null",
+      ".read": true
+    }
+  }
+}

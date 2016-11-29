@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Firebase Hosting</title>
+  </head>
+  <body>
+    <div>
+      <label for="pin">PIN</label>
+      <input id="pin" type="password" maxlength="4">
+      <label for="winner">Who won?</label>
+      <select id="winner">
+        <option value="angel">Angel</option>
+        <option value="junior">Junior</option>
+      </select>
+      <button type="button" onclick="submitWinner(document.getElementById('winner').value)">Submit</button>
+    </div>
+    <div>Angel's Score
+      <div id="angel"></div>
+    </div>
+    <div>Junior's Score
+      <div id="junior"></div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-database.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+h1 {
+	font-family: 'Press Start 2P', cursive;
+	/* font-family: 'Open Sans', sans-serif; */
+	
+}
+
+body {
+	/* IE10+ */ 
+background-image: -ms-radial-gradient(center, ellipse farthest-corner, #a7cfdf 0%, #23538a 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, ellipse farthest-corner, #a7cfdf 0%, #23538a 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center, ellipse farthest-corner, #a7cfdf 0%, #23538a 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 309, color-stop(0, #a7cfdf), color-stop(100, #23538a));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #a7cfdf 0%, #23538a 100%);
+
+/* W3C Markup */ 
+background-image: radial-gradient(ellipse farthest-corner at center, #a7cfdf 0%, #23538a 100%);
+}

@@ -1,3 +1,11 @@
+  $(document).ready(function(){
+	$('select').material_select();
+	
+$("#submit").click(function(){
+	submitWinner(document.getElementById('winner').value)
+});
+		
+
   // Initialize Firebase
 var config = {
   apiKey: "AIzaSyCaJgPEhPMjStLfcg5goNcENjUIsjmbg2w",
@@ -47,3 +55,4 @@ function checkPin(){
     return pin.val()==pass;
   });
 }
+});
